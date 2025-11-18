@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Anjali Beauty Parlour – Desi Dream Theme</title>
+<style>
+  body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#fff4e3;
+    color:#4a2e0f;
+  }
+  header{
+    background:#d99139;
+    padding:20px;
+    text-align:center;
+    color:white;
+    font-size:26px;
+    font-weight:bold;
+    letter-spacing:1px;
+  }
+  nav{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    background:#f7d7a8;
+    padding:12px;
+  }
+  nav a{
+    text-decoration:none;
+    color:#4a2e0f;
+    font-weight:bold;
+    padding:8px 14px;
+    border-radius:6px;
+    transition:0.3s ease;
+  }
+  nav a:hover{
+    background:#d99139;
+    color:white;
+    transform:scale(1.08);
+  }
+  .hero{
+    text-align:center;
+    padding:60px 20px;
+    background:url('https://i.imgur.com/fZkWYkZ.jpeg');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-shadow:1px 1px 4px black;
+  }
+  .hero h1{
+    font-size:40px;
+    margin:0;
+    animation: fadeIn 2s ease;
+  }
+  .hero p{
+    font-size:20px;
+    margin-top:10px;
+    animation: fadeUp 2.5s ease;
+  }
+  @keyframes fadeIn{
+    from{opacity:0}
+    to{opacity:1}
+  }
+  @keyframes fadeUp{
+    from{opacity:0; transform:translateY(20px)}
+    to{opacity:1; transform:translateY(0)}
+  }
+  .section{
+    padding:40px 20px;
+    text-align:center;
+  }
+  .services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    padding:20px;
+  }
+  .card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.4s;
+    border:2px solid #d99139;
+  }
+  .card:hover{
+    transform:scale(1.08) rotate(-1deg);
+    background:#fff5e8;
+  }
+  .bio{
+    max-width:650px;
+    margin:auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    border-left:6px solid #d99139;
+    line-height:1.7;
+  }
+  footer{
+    text-align:center;
+    padding:20px;
+    background:#4a2e0f;
+    color:white;
+    margin-top:20px;
+  }
+</style>
+</head>
+<body>
+<header>Anjali Beauty Parlour</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#bio">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+  <h1>Welcome to Your Dream Beauty Experience</h1>
+  <p>Traditional charm with a modern touch. A place where beauty meets confidence.</p>
+</div>
+
+<div class="section" id="services">
+  <h2>Our Special Services</h2>
+  <div class="services">
+    <div class="card">Bridal Makeup</div>
+    <div class="card">Party Makeup</div>
+    <div class="card">Facial & Cleanup</div>
+    <div class="card">Hair Styling</div>
+    <div class="card">Mehndi Art</div>
+    <div class="card">Nail Art</div>
+  </div>
+</div>
+
+<div class="section" id="bio">
+  <h2>Owner's Bio</h2>
+  <div class="bio">
+    <p><strong>Anjaliben</strong> — a passionate beauty artist with a heart full of creativity. 8+ years of experience, hundreds of happy brides, and a dream to make every woman feel confident and beautiful in her own skin. Desi style nu perfect blend ane modern finishing, banne tu ek j jagya par. This parlour is not just a business, it's a dream built with dedication, trust and love.</p>
+  </div>
+</div>
+
+<div class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p>📍 Address: Near Laxmi Steel, Under Black Gate,Veraval Main Road, Veraval (Shapar), Rajkot, Gujarat<br>
+     📞 Phone: +91 91061 77279<br>
+     ⏰ Timing: 9 AM to 8 PM
+  </p>
+</div>
+
+<footer>
+  © 2025 Anjali Beauty Parlour. All Rights Reserved.
+</footer>
+</body>
+</html>
